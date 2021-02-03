@@ -7,10 +7,11 @@
 # 4+44+444+4444=...
 
 num=int(input("enter the number"))
-for i in range(1,num+1):
-    a=str(num)*i
-    print(a)   #if here input is 2, output will be 2 and 22
+pattern=""
+tot=0
+for i in range(1,(num+1)):
+    pattern=str(num)*i
+    print(pattern)  #if here input is 2, output will be 2 and 22
                         # if input 3, output 3,33,and 333
-    b=int(a)
-    for j in range(b,b+1):
-    print(b)
+    tot+=int(pattern)
+print(tot)
