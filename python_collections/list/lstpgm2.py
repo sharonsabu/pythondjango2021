@@ -1,3 +1,4 @@
+#question in book
 lst=[2,4,6]
 
 tot=sum(lst)  #12
