@@ -11,3 +11,4 @@ print("")
 lst=[10,20,20,30,30]
 st1=set(lst)
 print(st1)
+
