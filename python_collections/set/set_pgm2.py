@@ -10,5 +10,5 @@ intersection_set=st.intersection(st1)
 print(intersection_set)
 
 #difference between two sets
-diff_set=st.difference(st1)
+diff_set=st.difference(st1)  #or st-st1
 print(diff_set)
