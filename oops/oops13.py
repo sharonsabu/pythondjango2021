@@ -15,7 +15,7 @@ class vscode:
 class programmer:
     def coding(self,ide):
         ide.create_file()
-        ide.execute_program()
+        ide.execute_program()o  
 
 py=pycharm()
 vs=vscode()
