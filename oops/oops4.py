@@ -1,3 +1,5 @@
+#usage of constructor
+
 class employee:
 
     company_name="ctc"

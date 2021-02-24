@@ -1,3 +1,5 @@
+#inheritance
+#multilevel
 class Parent:
     def m1(self):
         print("inside m1")

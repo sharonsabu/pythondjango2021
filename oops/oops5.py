@@ -1,3 +1,5 @@
+#inheritance
+#single
 class parent:
     def phone(self):
         print("inside parents phone method")
