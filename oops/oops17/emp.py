@@ -27,3 +27,7 @@ for emps in employees:
     salary.append(emps.salary)
 print(max(salary))
 print(emp)
+print("")
+
+nm=list(map(lambda empl:empl.name,employees))  #empl is a object created by us --- same as "for empl in employees"
+print(nm)
