@@ -1,7 +1,7 @@
 from re import *
 
-pattern="\w"       #checks for all alphabets both upper and lower case
-source="ab Zk@_9c"     #doesn't check for special charaters except underscore
+pattern="\W"       #checks for special characters but underscore is not valid here
+source="ab Zk@_9c"
 matcher=finditer(pattern,source)
 count=0
 for match in matcher:
