@@ -1,8 +1,9 @@
-#rule for validating phone number
+#print only the valid regriestration number from the file
+f=open("vv4_file","r")
 
 from re import *
 
-rule='[+]?9?1?\d{10}'   #? means +91 can be optional
+rule='[K][L]\d{2}[A-Z]{2}\d{1,4}'
 variable_name=input("enter variable name")
 
 matcher=fullmatch(rule,variable_name)
