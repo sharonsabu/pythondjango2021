@@ -2,7 +2,7 @@
 
 from re import *
 
-rule='\d{0,31}[-]\d{0,12}[-]\d{4}'
+rule='[0-3][0-9][-][0-1][1-9][-]\d{4}'
 variable_name=input("enter variable name")
 
 matcher=fullmatch(rule,variable_name)
