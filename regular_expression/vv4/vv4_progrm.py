@@ -1,13 +1,11 @@
 #print only the valid regriestration number from the file
-f=open("vv4_file","r")
-
 from re import *
 
+f=open("vv4_file","r")
 rule='[K][L]\d{2}[A-Z]{2}\d{1,4}'
-variable_name=input("enter variable name")
+for lines in f:
+    words=lines.rstrip("\n")
 
-matcher=fullmatch(rule,variable_name)
-if matcher!=None:
-    print("valid variable name")
-else:
-    print("invalid")
+    matcher=fullmatch(rule,words)
+    if matcher!=None:
+        print(words,"valid registration")
