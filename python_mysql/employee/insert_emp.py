@@ -11,7 +11,7 @@ db=mysql.connector.connect(
 cursor=db.cursor()
 f=open("emp_details","r")
 for lines in f:
-    emp=lines.rstrip("\n").split(",")
+    data=lines.rstrip("\n").split(",")
     sql="insert into employee values(%s,%s,%s,%s)"
-    cursor.execute(sql,emp_details)
+    cursor.execute(sql,data)
     db.commit()
