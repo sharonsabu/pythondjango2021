@@ -1,0 +1,11 @@
+h1{
+    color: red;
+}
+
+h2{
+    color: rgb(72,5,79);  /*rgb value from colorpicker*/
+}
+
+h3{
+    color: #0d5891;  /*hex value from color picker*/
+}

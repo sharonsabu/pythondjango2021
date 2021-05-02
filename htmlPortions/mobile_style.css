@@ -1,0 +1,18 @@
+body{
+    background-color: #04aac7;
+}
+.hone{
+    color: #130052;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+div{
+    border:2px solid greenyellow;
+    width: 33%;
+    height: 400px;
+    background-color: aqua; 
+    float: left;
+
+}

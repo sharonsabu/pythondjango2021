@@ -1,0 +1,38 @@
+h1{
+    font-family: 'Ranchers', cursive;
+    text-align: center;
+    
+}
+div{
+    width: 200px;
+    height: 400px;
+    float: left;
+    
+
+}
+#style{
+    border: 2px solid blue;
+    background-color: blue;
+     
+
+    
+}
+#style1{
+    border: 2px solid green;
+    background-color: green;
+   
+  
+}
+#style2{
+    border: 2px solid yellow;
+    background-color: yellow;    
+}
+#style3{
+    border: 2px solid red;
+    background-color: red;   
+}
+#style4{
+    border: 2px solid orange;
+    background-color: orange;
+  
+}

@@ -1,0 +1,23 @@
+div{border: 2px solid red;
+    width: 40%;
+    background-color: aqua;
+    margin-left: 32%;
+
+}
+#top{
+    
+    margin-top: 5%;
+    
+}
+#footer{
+    margin-top: 30%;
+    
+}
+#top h1{
+    position: relative;
+    left: 45%;
+}
+#footer h1{
+    position: relative;
+    left: 40%;
+}

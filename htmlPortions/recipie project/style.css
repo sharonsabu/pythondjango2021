@@ -1,0 +1,55 @@
+body{
+    margin: 0%;
+}
+
+
+.banner{
+    height: 100vh;
+    width: 100%;
+   background-color: black;
+   
+}
+
+.banner h1{
+    color: whitesmoke;
+margin: 0%;
+text-align: center;
+}
+.container{
+    width: 100%;
+    height: 625px;
+    background-color: blueviolet;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+.partone,.parttwo,.partthree
+{
+    width: 30%;
+    height: 300px;
+    border: 1px solid blue;
+    background-color: lawngreen;
+    
+}
+img{
+    width: 60%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+.partfour,.partfive,.partsix{
+    width: 30%;
+    height: 300px;
+    border: 1px solid blue;
+    background-color: lawngreen;
+    
+
+}
+

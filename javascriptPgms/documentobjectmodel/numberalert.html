@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <input type="text" id="num" placeholder="age">
+    <button onclick="printNum()">chk</button>
+
+<div class="resultarea">
+
+</div>
+
+</body>
+<script>
+    function printNum()
+    {
+        let age=document.querySelector("#num").value
+        var html_content=""
+        if(age>18)
+        {
+            html_content="eligible"
+
+        }
+        else
+        {
+            html_content="not eligible"
+        }
+        document.querySelector(".resultarea").innerHTML=`<h1>$(html_content)</h1>`
+    }
+</script>
+
+
+</html>
